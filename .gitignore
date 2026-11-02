@@ -1,0 +1,44 @@
+# Build output
+work/
+out/
+donor/
+stock/
+base85/
+_to_delete/
+
+# Kernel
+kernel/src/
+kernel/*.zip
+
+# Release files
+release/*.zip
+release/*.sha256
+
+# Android binaries
+*.img
+*.bin
+*.apk
+*.jar
+*.odex
+*.vdex
+*.so
+
+# Diagnostic data
+*.txt
+*.log
+*.db
+*.kmsg
+*.dmp
+anr/
+br/
+br.zip
+scpm-db/
+scpm_backup/
+screenshots/
+
+# Private development files
+vold.s23
+ProcessErrorStateRecord.smali
+
+# Local utilities and build artifacts
+tools/
