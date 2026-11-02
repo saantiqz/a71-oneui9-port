@@ -42,3 +42,6 @@ ProcessErrorStateRecord.smali
 
 # Local utilities and build artifacts
 tools/
+
+# Local build metadata
+release/.buildno
